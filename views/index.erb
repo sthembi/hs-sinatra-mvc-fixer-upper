@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Transportation Decider</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+ </head>
+	
+ <body>
+	<h1> Your very own Transportation Decider! </h1>
+	<h3> Have you ever wanted to know what mode of transportation you should take to get somewhere?
+	Lucky for you, the wait is over!
+	<br> 
+	Just enter the location you want to go and how far it is and our computer will tell you the best means of transportation to get there.
+	</h3>
+	<img src="https://media0.giphy.com/media/ojtdpE8iqOgsE/200.gif" alt="funny gif of people trying to catch a bus and failing miserably">
+	<div class="transport-form">
+	  <!--Form that asks user for location and miles -->
+		<form method="POST" action="/transport-results">
+			Where are you going?<br>
+			<input type="text" name="location" required>
+			<br>
+			In miles, how far is it?<br>
+			<input type="text" name="distance" required><br>
+			<input type="submit" value="Decide which transportation!">
+		</form>
+	</div>
+	 
+ </body>
+</html>
