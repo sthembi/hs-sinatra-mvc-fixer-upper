@@ -2,7 +2,7 @@
 
 # Sinatra MVC Fixer Upper
 
-Harry Styles, Niall Horan, Liam Payne, Louis Tomlinson, and Zayn Malik are working on their final project and are excited to show the world their amazing app.
+Harry Styles, Niall Horan, Liam Payne, Louis Tomlinson, and ~~Zayn Malik~~ are working on their final project and are excited to show the world their amazing app.
 
 There's just "one thing" - they need your help to make their app work.
 
